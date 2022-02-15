@@ -58,9 +58,13 @@ foreach ($posts as $post => $description) {
         // var_dump($description);
         // echo "----------------ITEM---------------";
         // var_dump($item);
-        $item['title'];
-        $item['author'];
-        $item['text'];
+        $title = $item['title'];
+        $author = $item['author'];
+        $text = $item['text'];
+        echo "<p>$title</p>";
+        echo "<p>$author</p>";
+        echo "<p>$text</p>";
+        echo "<hr>";
     }
 }
 
